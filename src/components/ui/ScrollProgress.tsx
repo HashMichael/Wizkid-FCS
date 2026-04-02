@@ -31,7 +31,11 @@ export default function ScrollProgress() {
     <div
       ref={barRef}
       className="scroll-progress"
-      style={{ width: '100%', transformOrigin: 'left', scaleX: 0 }}
+      style={{
+  width: '100%',
+  transformOrigin: 'left',
+  transform: 'scaleX(0)',
+}}
     />
   )
 }
